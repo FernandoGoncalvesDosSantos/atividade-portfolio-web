@@ -1,0 +1,263 @@
+.squad {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+
+.logo img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid black;
+}
+
+.caixa {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    max-width: 500px;
+}
+
+.caixa h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.caixa p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.caixa-projetos{
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    max-width: 500px;
+}
+
+.banner {
+    width: 100%;
+    height: 300px;       
+    overflow: hidden;    
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.pagina-mensagem .banner {
+    height: 200px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.redes p{
+    color: rgb(255, 255, 255);
+}
+
+.redes {
+    text-align: center;
+}
+
+.card-rede {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    color: rgb(20, 20, 20);
+}
+
+.card-rede img {
+    width: 50px;
+}
+
+.card-rede p {
+    font-size: 10px;
+    margin: 3px 0 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+
+#titulo-habilidades {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 20px;
+    color: #000000;
+}
+
+#img-perfil {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #000000;
+}
+
+
+#texto-habilidades {
+    max-width: 900px;
+    margin: 20px auto;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+#frase-destaque {
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+    margin: 30px auto;
+    color: #ff0000;
+}
+
+
+
+#objetivos{
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 20px;
+    line-height: 1.7;
+}
+
+#objetivos h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #0d6efd;
+}
+
+#objetivos p{
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+#planos{
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+#planos h3{
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #198754;
+}
+
+#planos ul{
+    list-style-type: square;
+}
+
+#planos li{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+#tabela-minhas-habilidades{
+    width: 100%;
+    border-radius: 50px;
+}
+
+#tabela-minhas-habilidades thead{
+    background-color: #badbcc;
+    color: #080808;
+}
+
+#tabela-minhas-habilidades th,
+#tabela-minhas-habilidades td{
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #badbcc;
+    background-color: #d1e7dd;
+}
+
+
+
+
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+}
+
+.portfolio {
+    padding-top: 70px;
+}
+
+.portfolio p,
+.portfolio h1,
+.portfolio h2,
+.portfolio h3,
+.portfolio h4,
+.portfolio h5 {
+    color: white;
+}
+
+.caixa-preta {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.perfil {
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.rede-social {
+    width: 50px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.rede-social:hover {
+    transform: scale(1.0);
+}
+
+.portfolio footer {
+    background-color: #2e2c2cef;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

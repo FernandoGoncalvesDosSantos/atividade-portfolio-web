@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="pt-br" data-bs-theme="ligth">
+    <head>
+        <title>Fale Comigo</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Bootstrap CSS v5.3.8 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous"/>
+
+            <link rel="stylesheet" href="../assets/estilo.css">
+
+    </head>
+
+    <body>
+        <header>
+            <!-- place navbar here -->
+             <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../html/index.html">INÍCIO</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        TÓPICOS
+                </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="../html/minhahistoria.html">Minha História</a></li>
+                        <li><a class="dropdown-item" href="../html/minhahabilidade.html">Minhas Habilidades</a></li>
+                        <li><a class="dropdown-item" href="../html/planos.futuros.html">Planos Futuros</a></li>
+                        <li><a class="dropdown-item" href="../html/falecomigo.html">Fale Comigo</a></li>
+                        <li><a class="dropdown-item" href="../html/indique.php">Indique</a></li>
+                        
+                    </ul>
+                    </li>
+                </ul>
+                </div>
+            </div>
+            </nav>
+        </header>
+        <main class="flex-grow-1">
+                <div class="container-fluid text-white text-center p-5" style="background-color: #030303;">
+                <a href="../html/minhahistoria.html">
+                <img src="../images/file.enc" class="img-fluid rounded-circle mb-3" style="width: 120px;" alt="eu">
+                </a>
+                <h2 class="fw-bold">Obrigado por visitar meu portfólio!</h2>
+
+                    <p>
+                    Fico muito feliz pelo seu interesse no meu trabalho. Este espaço reúne um pouco da minha trajetória, minhas habilidades e meus objetivos profissionais.
+                    </p>
+
+                    <p>
+                    Espero que sua experiência aqui tenha sido interessante. Estou sempre aberta a novas oportunidades, aprendizados e conexões.
+                    </p>
+
+                    <p>
+                    Se quiser conversar, tirar dúvidas ou até mesmo propor uma oportunidade, será um prazer falar com você!
+                    </p>
+                    </div>
+
+
+                    <div class="container mt-5 p-4 rounded text-white" style="background-color: #070707;">
+
+                        <h2 class="mb-3">Fale Comigo</h2>
+
+                        <p class="mb-4">
+                            Preencha os campos abaixo corretamente:
+                            <br><br>
+                            <strong>Nome:</strong> digite seu nome completo<br>
+                            <strong>E-mail:</strong> digite um e-mail válido para contato<br>
+                            <strong>Mensagem:</strong> escreva o motivo do seu contato
+                        </p>
+
+                        <form action="../html/processa.php" method="POST">
+
+                            
+                            <div class="mb-3">
+                                <label class="form-label">Nome completo</label>
+                                <input type="text" name="nome" class="form-control" placeholder="Seu nome..." required>
+                            </div>
+
+                            
+                            <div class="mb-3">
+                                <label class="form-label">E-mail</label>
+                                <input type="email" name="email" class="form-control" placeholder="E-mail..." required>
+                            </div>
+
+                            
+                            <div class="mb-3">
+                                <label class="form-label">Mensagem</label>
+                                <textarea name="texto" class="form-control" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-light">
+                                Enviar mensagem
+                            </button>
+
+                        </form>
+
+                    </div>
+                            <div class="banner banner-spacing">
+            <img src="../images/intricate-blue-circuit-board-frame-abstract-technology-design-png.webp" alt="Banner">
+            <h1>Meu Portfólio</h1>
+                            </div>
+        </main>
+            <footer class="bg-dark text-white text-center py-3 mt-5">
+                <p class="mb-1 fw-bold">Meu Portfólio</p>
+                <p class="mb-0 small">© 2026 Todos os direitos reservados</p>
+            </footer>
+        <!-- Bootstrap JavaScript Bundle (includes Popper) -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
